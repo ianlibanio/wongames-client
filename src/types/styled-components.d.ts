@@ -35,6 +35,7 @@ declare module 'styled-components' {
       gray: string
       darkGray: string
       red: string
+      blue: string
     }
     spacings: {
       xxsmall: string
