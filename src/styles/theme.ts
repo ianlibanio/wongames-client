@@ -1,5 +1,3 @@
-import { DefaultTheme } from 'styled-components'
-
 export default {
   grid: {
     container: '130rem',
@@ -57,4 +55,4 @@ export default {
     default: '0.3s ease-in-out',
     fast: '0.1s ease-in-out'
   }
-} as DefaultTheme
+} as const
