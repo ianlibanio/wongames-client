@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo do Next.JS" title="Logo" src="https://user-images.githubusercontent.com/38297269/127854749-0483c0a5-3905-483f-aae7-ec0f3cf64b20.png" width="300px" />
+    <img alt="Won Games" title="Logo" src="https://user-images.githubusercontent.com/38297269/127854749-0483c0a5-3905-483f-aae7-ec0f3cf64b20.png" width="300px" />
 </h1>
 
 <h3 align="center">
@@ -7,13 +7,13 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ianlibanio/boilerplate?style=for-the-badge&color=F86A8B">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ianlibanio/boilerplate?style=for-the-badge&color=F86A8B">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ianlibanio/wongames-client?style=for-the-badge&color=F86A8B">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ianlibanio/wongames-client?style=for-the-badge&color=F86A8B">
   <a href="https://github.com/ianlibanio/Letmeask/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ianlibanio/boilerplate?style=for-the-badge&color=F86A8B">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ianlibanio/wongames-client?style=for-the-badge&color=F86A8B">
   </a>
   <a href="https://github.com/ianlibanio/Letmeask/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/ianlibanio/boilerplate?style=for-the-badge&color=F86A8B">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/ianlibanio/wongames-client?style=for-the-badge&color=F86A8B">
   </a>
 </p>
 
@@ -22,6 +22,7 @@
 <p align="center">
   <a href="#-technologies">🚀 Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">💻 Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-commands">🤖 Commands</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributing">🤔 Contributing</a>&nbsp;&nbsp;&nbsp;
 <br>
 
