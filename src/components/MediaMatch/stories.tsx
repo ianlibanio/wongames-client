@@ -16,7 +16,7 @@ export const Desktop: Story = ({ title }) => (
 )
 
 Desktop.args = {
-  title: 'Only on Desktop'
+  title: 'Apenas no Desktop'
 }
 
 export const Mobile: Story = ({ title }) => (
@@ -24,7 +24,7 @@ export const Mobile: Story = ({ title }) => (
 )
 
 Mobile.args = {
-  title: 'Only on Mobile'
+  title: 'Apenas no Mobile'
 }
 
 Mobile.parameters = {

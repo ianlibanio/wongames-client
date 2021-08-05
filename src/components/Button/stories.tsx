@@ -15,7 +15,7 @@ export default {
 export const Default: Story<ButtonProps> = (args) => <Button {...args} />
 
 Default.args = {
-  children: 'Buy now',
+  children: 'Adicionar',
   size: 'medium',
   fullWidth: false
 }
@@ -23,7 +23,7 @@ Default.args = {
 export const withIcon: Story<ButtonProps> = (args) => <Button {...args} />
 
 withIcon.args = {
-  children: 'Buy now',
+  children: 'Adicionar',
   size: 'medium',
   fullWidth: false,
   icon: <AddShoppingCart />
