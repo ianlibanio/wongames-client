@@ -1,6 +1,8 @@
 import { sanitize } from 'dompurify'
 
 import { Button } from 'components/Button'
+import { Ribbon, RibbonColors, RibbonSizes } from 'components/Ribbon'
+
 import * as S from './styles'
 
 export type BannerProps = {
@@ -9,6 +11,9 @@ export type BannerProps = {
   subtitle: string
   buttonLabel: string
   buttonLink: string
+  ribbon?: string
+  ribbonSize?: RibbonSizes
+  ribbonColor?: RibbonColors
 }
 
 export const Banner = ({
@@ -16,9 +21,18 @@ export const Banner = ({
   title,
   subtitle,
   buttonLabel,
-  buttonLink
+  buttonLink,
+  ribbon,
+  ribbonSize = 'normal',
+  ribbonColor = 'primary'
 }: BannerProps) => (
   <S.Wrapper>
+    {ribbon && (
+      <Ribbon size={ribbonSize} color={ribbonColor}>
+        {ribbon}
+      </Ribbon>
+    )}
+
     <S.Image src={img} role="img" aria-label={title} />
 
     <S.Caption>
