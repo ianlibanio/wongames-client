@@ -18,7 +18,7 @@ describe('<Footer />', () => {
     expect(screen.getByRole('heading', { name: /links/i })).toBeInTheDocument()
 
     expect(
-      screen.getByRole('heading', { name: /endereço/i })
+      screen.getByRole('heading', { name: /localização/i })
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()

@@ -80,7 +80,7 @@ export const Footer = () => (
 
       <S.Column aria-labelledby="footer-contact">
         <Heading color="black" lineColor="secondary" lineBottom size="small">
-          Endereço
+          Localização
         </Heading>
         <span>Rua Lorem ipsum dolor</span>
         <span>123 - 00000000</span>
