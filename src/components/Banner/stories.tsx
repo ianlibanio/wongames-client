@@ -5,7 +5,7 @@ export default {
   title: 'Banner',
   component: Banner,
   args: {
-    img: 'https://nintendoboy.com.br/wp-content/uploads/2018/11/H2x1_NSwitchDS_Crashlands_image1600w.jpg',
+    img: 'https://i.imgur.com/4fvu9zP.jpeg',
     title: 'Desafie a morte',
     subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
     buttonLabel: 'Comprar agora',
