@@ -5,9 +5,9 @@ import { Button, ButtonProps } from '.'
 export default {
   title: 'Button',
   component: Button,
-  argTypes: {
-    icon: {
-      type: ''
+  parameters: {
+    controls: {
+      exclude: ['icon', 'as']
     }
   }
 } as Meta
@@ -27,4 +27,14 @@ withIcon.args = {
   size: 'medium',
   fullWidth: false,
   icon: <AddShoppingCart />
+}
+
+export const asLink: Story<ButtonProps> = (args) => <Button {...args} />
+
+asLink.args = {
+  children: 'Adicionar',
+  size: 'medium',
+  fullWidth: false,
+  as: 'a',
+  href: '/link'
 }
