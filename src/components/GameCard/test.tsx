@@ -4,7 +4,7 @@ import { renderWithTheme } from 'utils/test-utils'
 import { GameCard } from '.'
 
 const props = {
-  title: 'Read Dead Redemption',
+  title: 'Red Dead Redemption',
   developer: 'Rockstar Games',
   price: 'R$235,00',
   img: '/img/red-dead-card.png'

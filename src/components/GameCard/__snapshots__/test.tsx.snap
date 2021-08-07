@@ -163,7 +163,7 @@ exports[`<GameCard /> should render correctly 1`] = `
       class="c1"
     >
       <img
-        alt="Read Dead Redemption"
+        alt="Red Dead Redemption"
         src="/img/red-dead-card.png"
       />
     </div>
@@ -176,7 +176,7 @@ exports[`<GameCard /> should render correctly 1`] = `
         <h3
           class="c4"
         >
-          Read Dead Redemption
+          Red Dead Redemption
         </h3>
         <h4
           class="c5"
