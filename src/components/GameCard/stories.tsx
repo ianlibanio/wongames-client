@@ -13,8 +13,7 @@ export default {
     favorite: false
   },
   argTypes: {
-    onFav: { action: 'clicked' },
-    ribbon: { type: 'string' }
+    onFav: { action: 'clicked' }
   },
   parameters: {
     backgrounds: {
