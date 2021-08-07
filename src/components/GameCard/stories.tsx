@@ -29,6 +29,12 @@ export const Default: Story<GameCardProps> = (args) => (
   </div>
 )
 
+Default.parameters = {
+  controls: {
+    exclude: ['ribbon', 'ribbonSize', 'ribbonColor']
+  }
+}
+
 export const WithRibbon: Story<GameCardProps> = (args) => (
   <div style={{ width: '30rem' }}>
     <GameCard {...args} />
