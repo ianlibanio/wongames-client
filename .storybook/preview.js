@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { RouterContext } from 'next/dist/next-server/lib/router-context'
+import { RouterContext } from 'next/dist/shared/lib/router-context'
 import { ThemeProvider } from 'styled-components'
 
 import * as nextImage from 'next/image'
