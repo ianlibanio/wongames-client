@@ -1,18 +1,17 @@
 export default {
-  title: "Next.JS Boilerplate",
-  description: "A boilerplate to work with TypeScript, NextJS and Styled Components",
-  canonical: "https://boilerplate.ianlibanio.com/",
+  title: "Won Games",
+  description: "The best game store in the world.",
+  canonical: "https://wongames.ianlibanio.com/",
   openGraph: {
-    url: 'https://boilerplate.ianlibanio.com/',
-    title: 'Next.JS Boilerplate',
-    description:
-    'A boilerplate to work with TypeScript, NextJS and Styled Components',
+    url: 'https://wongames.ianlibanio.com/',
+    title: 'Won Games',
+    description: 'The best game store in the world.',
     images: [
       {
-        url: 'https://raw.githubusercontent.com/ianlibanio/boilerplate/main/public/img/banner.png'
+        url: 'https://i.imgur.com/qsdj5ET.png'
       }
     ],
-    site_name: 'Next.JS Boilerplate'
+    site_name: 'Won Games'
   },
   additionalLinkTags: [
     {
@@ -35,7 +34,7 @@ export default {
   additionalMetaTags: [
     {
       name: 'theme-color',
-      content: '#0d1117'
+      content: '#06092B'
     }
   ]
 }
