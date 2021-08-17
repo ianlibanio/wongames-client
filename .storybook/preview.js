@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { RouterContext } from 'next/dist/shared/lib/router-context'
 import { ThemeProvider } from 'styled-components'
 
