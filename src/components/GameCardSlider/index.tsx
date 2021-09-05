@@ -51,7 +51,7 @@ export type GameCardSliderProps = {
 
 export const GameCardSlider = ({
   items,
-  color = 'black'
+  color = 'white'
 }: GameCardSliderProps) => (
   <S.Wrapper color={color}>
     <Slider settings={settings}>

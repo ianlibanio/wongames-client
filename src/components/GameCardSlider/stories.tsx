@@ -1,51 +1,7 @@
 import { Meta, Story } from '@storybook/react'
-import { GameCardProps } from 'components/GameCard'
 import { GameCardSlider, GameCardSliderProps } from '.'
 
-const items = [
-  {
-    title: 'Red Dead Redemption',
-    developer: 'Rockstar Games',
-    img: '/img/red-dead-card.png',
-    price: 'R$235,00',
-    promotionalPrice: 'R$215,00'
-  },
-  {
-    title: 'Red Dead Redemption',
-    developer: 'Rockstar Games',
-    img: '/img/red-dead-card.png',
-    price: 'R$235,00',
-    promotionalPrice: 'R$215,00'
-  },
-  {
-    title: 'Red Dead Redemption',
-    developer: 'Rockstar Games',
-    img: '/img/red-dead-card.png',
-    price: 'R$235,00',
-    promotionalPrice: 'R$215,00'
-  },
-  {
-    title: 'Red Dead Redemption',
-    developer: 'Rockstar Games',
-    img: '/img/red-dead-card.png',
-    price: 'R$235,00',
-    promotionalPrice: 'R$215,00'
-  },
-  {
-    title: 'Red Dead Redemption',
-    developer: 'Rockstar Games',
-    img: '/img/red-dead-card.png',
-    price: 'R$235,00',
-    promotionalPrice: 'R$215,00'
-  },
-  {
-    title: 'Red Dead Redemption',
-    developer: 'Rockstar Games',
-    img: '/img/red-dead-card.png',
-    price: 'R$235,00',
-    promotionalPrice: 'R$215,00'
-  }
-] as GameCardProps[]
+import items from './mock'
 
 export default {
   title: 'GameCardSlider',

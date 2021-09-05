@@ -5,7 +5,7 @@ export default {
   title: 'Banner',
   component: Banner,
   args: {
-    img: 'https://i.imgur.com/4fvu9zP.jpeg',
+    img: 'https://cdn1.epicgames.com/1b8a504ec52d4430b65cca2990ad6c7f/offer/EGS_Crashlands_ButterscotchShenanigans_S1-2560x1440-2971f9f3be6e0b5b7e69818577240f54.jpg',
     title: 'Defy death',
     subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
     buttonLabel: 'Buy now',
@@ -35,7 +35,7 @@ export const WithRibbon: Story<BannerProps> = (args) => (
 )
 
 WithRibbon.args = {
-  ribbon: 'Bestselling',
+  ribbon: 'Bestseller',
   ribbonSize: 'normal',
   ribbonColor: 'secondary'
 }

@@ -1,4 +1,4 @@
-import { sanitize } from 'dompurify'
+import DOMPurify from 'isomorphic-dompurify'
 
 import { Button } from 'components/Button'
 import { Ribbon, RibbonColors, RibbonSizes } from 'components/Ribbon'
@@ -37,7 +37,9 @@ export const Banner = ({
 
     <S.Caption>
       <S.Title>{title}</S.Title>
-      <S.Subtitle dangerouslySetInnerHTML={{ __html: sanitize(subtitle) }} />
+      <S.Subtitle
+        dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(subtitle) }}
+      />
       <Button as="a" href={buttonLink} size="large">
         {buttonLabel}
       </Button>
