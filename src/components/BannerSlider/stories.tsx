@@ -5,24 +5,25 @@ import { BannerSlider, BannerSliderProps } from '.'
 const items = [
   {
     img: 'https://i.imgur.com/4fvu9zP.jpeg',
-    title: 'Desafie a morte 1',
-    subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
-    buttonLabel: 'Comprar agora',
+    title: 'Defy death 1',
+    subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
+    buttonLabel: 'Buy now',
     buttonLink: '/games/defy-death',
-    ribbon: 'Lançamento'
+    ribbon: 'Bestseller',
+    ribbonColor: 'secondary'
   },
   {
     img: 'https://i.imgur.com/4fvu9zP.jpeg',
-    title: 'Desafie a morte 2',
-    subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
-    buttonLabel: 'Comprar agora',
+    title: 'Defy death 2',
+    subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
+    buttonLabel: 'Buy now',
     buttonLink: '/games/defy-death'
   },
   {
     img: 'https://i.imgur.com/4fvu9zP.jpeg',
-    title: 'Desafie a morte 3',
-    subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
-    buttonLabel: 'Comprar agora',
+    title: 'Defy death 3',
+    subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
+    buttonLabel: 'Buy now',
     buttonLink: '/games/defy-death'
   }
 ] as BannerProps[]

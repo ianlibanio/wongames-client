@@ -10,7 +10,7 @@ export const Footer = () => (
     <S.Content>
       <S.Column>
         <Heading color="black" size="small" lineBottom lineColor="secondary">
-          Contato
+          Contact us
         </Heading>
 
         <a href="mailto:suporte@wongames.gg">suporte@wongames.gg</a>
@@ -19,7 +19,7 @@ export const Footer = () => (
 
       <S.Column>
         <Heading color="black" size="small" lineBottom lineColor="secondary">
-          Nos acompanhe
+          Follow us
         </Heading>
 
         <nav aria-labelledby="social media">
@@ -64,13 +64,13 @@ export const Footer = () => (
 
         <nav aria-labelledby="footer resources">
           <Link href="/games">
-            <a>Loja</a>
+            <a>Store</a>
           </Link>
           <Link href="/explore">
-            <a>Explorar</a>
+            <a>Explore</a>
           </Link>
           <Link href="/search">
-            <a>Buscar</a>
+            <a>Search</a>
           </Link>
           <Link href="/faq">
             <a>FAQ</a>
@@ -80,13 +80,13 @@ export const Footer = () => (
 
       <S.Column aria-labelledby="footer-contact">
         <Heading color="black" lineColor="secondary" lineBottom size="small">
-          Localização
+          Location
         </Heading>
         <span>Rua Lorem ipsum dolor</span>
         <span>123 - 00000000</span>
         <span>Lorem ipsum, Brasil</span>
       </S.Column>
     </S.Content>
-    <S.Copyright>Won Games 2021 © Todos os Direitos Reservados.</S.Copyright>
+    <S.Copyright>Won Games 2021 © All rights reserved</S.Copyright>
   </S.Wrapper>
 )

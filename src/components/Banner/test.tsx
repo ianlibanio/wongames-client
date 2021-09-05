@@ -4,10 +4,10 @@ import { renderWithTheme } from 'utils/test-utils'
 import { Banner } from '.'
 
 const props = {
-  img: 'https://source.unsplash.com/user/willianjusten/1024x580',
-  title: 'Desafie a morte',
-  subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
-  buttonLabel: 'Comprar agora',
+  img: 'https://i.imgur.com/4fvu9zP.jpeg',
+  title: 'Defy death',
+  subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
+  buttonLabel: 'Buy now',
   buttonLink: '/games/defy-death'
 }
 
@@ -16,18 +16,18 @@ describe('<Banner />', () => {
     const { container } = renderWithTheme(<Banner {...props} />)
 
     expect(
-      screen.getByRole('heading', { name: /Desafie a morte/i })
+      screen.getByRole('heading', { name: /Defy death/i })
     ).toBeInTheDocument()
 
     expect(
       screen.getByRole('heading', {
-        name: /Jogue a nova temporada de CrashLands/i
+        name: /Play the new CrashLands season/i
       })
     ).toBeInTheDocument()
 
     expect(
       screen.getByRole('img', {
-        name: /Desafie a morte/i
+        name: /Defy death/i
       })
     ).toBeInTheDocument()
 

@@ -20,7 +20,7 @@ export const Default: Story<RibbonProps> = (args) => (
 )
 
 Default.args = {
-  children: 'Mais vendidos',
-  color: 'primary',
+  children: 'Bestselling',
+  color: 'secondary',
   size: 'normal'
 }

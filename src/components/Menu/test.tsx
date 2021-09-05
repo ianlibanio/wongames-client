@@ -7,12 +7,10 @@ describe('<Menu />', () => {
   it('should render the menu', () => {
     renderWithTheme(<Menu />)
 
-    expect(screen.getByLabelText(/abrir o menu/i)).toBeInTheDocument()
+    expect(screen.getByLabelText(/open menu/i)).toBeInTheDocument()
     expect(screen.getByRole('img', { name: /won games/i })).toBeInTheDocument()
-    expect(screen.getByLabelText(/pesquisar/i)).toBeInTheDocument()
-    expect(
-      screen.getByLabelText(/abrir o carrinho de compras/i)
-    ).toBeInTheDocument()
+    expect(screen.getByLabelText(/search/i)).toBeInTheDocument()
+    expect(screen.getByLabelText(/open shopping cart/i)).toBeInTheDocument()
   })
 
   it('should handle the open/close mobile menu', () => {
@@ -23,11 +21,11 @@ describe('<Menu />', () => {
     expect(fullMenuElement.getAttribute('aria-hidden')).toBe('true')
     expect(fullMenuElement).toHaveStyle({ opacity: 0 })
 
-    fireEvent.click(screen.getByLabelText(/abrir o menu/i))
+    fireEvent.click(screen.getByLabelText(/open menu/i))
     expect(fullMenuElement.getAttribute('aria-hidden')).toBe('false')
     expect(fullMenuElement).toHaveStyle({ opacity: 1 })
 
-    fireEvent.click(screen.getByLabelText(/fechar o menu/i))
+    fireEvent.click(screen.getByLabelText(/close menu/i))
     expect(fullMenuElement.getAttribute('aria-hidden')).toBe('true')
     expect(fullMenuElement).toHaveStyle({ opacity: 0 })
   })
@@ -35,18 +33,18 @@ describe('<Menu />', () => {
   it('should show register box when logged out', () => {
     renderWithTheme(<Menu />)
 
-    expect(screen.queryByText(/minha conta/i)).not.toBeInTheDocument()
-    expect(screen.queryByText(/lista de desejos/i)).not.toBeInTheDocument()
-    expect(screen.getByText(/entrar/i)).toBeInTheDocument()
-    expect(screen.getByText(/crie sua conta/i)).toBeInTheDocument()
+    expect(screen.queryByText(/my account/i)).not.toBeInTheDocument()
+    expect(screen.queryByText(/wish list/i)).not.toBeInTheDocument()
+    expect(screen.getByText(/log in now/i)).toBeInTheDocument()
+    expect(screen.getByText(/sign up/i)).toBeInTheDocument()
   })
 
   it('should show wishlist and account when logged in', () => {
     renderWithTheme(<Menu username="wongames" />)
 
-    expect(screen.getByText(/minha conta/i)).toBeInTheDocument()
-    expect(screen.getByText(/lista de desejos/i)).toBeInTheDocument()
-    expect(screen.queryByText(/entrar/i)).not.toBeInTheDocument()
-    expect(screen.queryByText(/crie sua conta/i)).not.toBeInTheDocument()
+    expect(screen.getByText(/my account/i)).toBeInTheDocument()
+    expect(screen.getByText(/wish list/i)).toBeInTheDocument()
+    expect(screen.queryByText(/log in now/i)).not.toBeInTheDocument()
+    expect(screen.queryByText(/sign up/i)).not.toBeInTheDocument()
   })
 })

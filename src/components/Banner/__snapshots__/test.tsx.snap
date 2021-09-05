@@ -40,7 +40,7 @@ exports[`<Banner /> should render the banner correctly 1`] = `
   width: 100%;
   height: 23rem;
   background-color: #EAEAEA;
-  background-image: url(https://source.unsplash.com/user/willianjusten/1024x580);
+  background-image: url(https://i.imgur.com/4fvu9zP.jpeg);
   background-position: center center;
   background-size: cover;
 }
@@ -111,10 +111,10 @@ exports[`<Banner /> should render the banner correctly 1`] = `
   class="c0"
 >
   <div
-    aria-label="Desafie a morte"
+    aria-label="Defy death"
     class="c1"
     role="img"
-    src="https://source.unsplash.com/user/willianjusten/1024x580"
+    src="https://i.imgur.com/4fvu9zP.jpeg"
   />
   <div
     class="c2"
@@ -122,16 +122,17 @@ exports[`<Banner /> should render the banner correctly 1`] = `
     <h2
       class="c3"
     >
-      Desafie a morte
+      Defy death
     </h2>
     <h3
       class="c4"
     >
       <p>
-        Jogue a nova temporada de 
+        Play the new 
         <strong>
           CrashLands
         </strong>
+         season
       </p>
     </h3>
     <a
@@ -139,7 +140,7 @@ exports[`<Banner /> should render the banner correctly 1`] = `
       href="/games/defy-death"
     >
       <span>
-        Comprar agora
+        Buy now
       </span>
     </a>
   </div>

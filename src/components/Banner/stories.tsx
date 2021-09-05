@@ -6,9 +6,9 @@ export default {
   component: Banner,
   args: {
     img: 'https://i.imgur.com/4fvu9zP.jpeg',
-    title: 'Desafie a morte',
-    subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
-    buttonLabel: 'Comprar agora',
+    title: 'Defy death',
+    subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
+    buttonLabel: 'Buy now',
     buttonLink: '/games/defy-death'
   },
   parameters: {
@@ -35,7 +35,7 @@ export const WithRibbon: Story<BannerProps> = (args) => (
 )
 
 WithRibbon.args = {
-  ribbon: 'Lançamento',
+  ribbon: 'Bestselling',
   ribbonSize: 'normal',
-  ribbonColor: 'primary'
+  ribbonColor: 'secondary'
 }

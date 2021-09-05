@@ -8,17 +8,17 @@ import { renderWithTheme } from 'utils/test-utils'
 const items = [
   {
     img: 'https://i.imgur.com/4fvu9zP.jpeg',
-    title: 'Desafie a morte 1',
-    subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
-    buttonLabel: 'Comprar agora',
+    title: 'Defy death 1',
+    subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
+    buttonLabel: 'Buy now',
     buttonLink: '/games/defy-death',
-    ribbon: 'Lançamento'
+    ribbon: 'Bestseller'
   },
   {
     img: 'https://i.imgur.com/4fvu9zP.jpeg',
-    title: 'Desafie a morte 2',
-    subtitle: '<p>Jogue a nova temporada de <strong>CrashLands</strong></p>',
-    buttonLabel: 'Comprar agora',
+    title: 'Defy death 2',
+    subtitle: '<p>Play the new <strong>CrashLands</strong> season</p>',
+    buttonLabel: 'Buy now',
     buttonLink: '/games/defy-death'
   }
 ] as BannerProps[]
@@ -37,11 +37,11 @@ describe('<BannerSlider />', () => {
     expect(container.querySelectorAll('li.slick-active')).toHaveLength(1)
 
     expect(
-      screen.getByRole('heading', { name: /desafie a morte 1/i, hidden: false })
+      screen.getByRole('heading', { name: /defy death 1/i, hidden: false })
     ).toBeInTheDocument()
 
     expect(
-      screen.getByRole('heading', { name: /desafie a morte 2/i, hidden: true })
+      screen.getByRole('heading', { name: /defy death 2/i, hidden: true })
     ).toBeInTheDocument()
   })
 

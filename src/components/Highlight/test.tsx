@@ -8,7 +8,7 @@ const props = {
   title: 'Heading 1',
   subtitle: 'Heading 2',
   backgroundImage: '/img/read-dead-img.png',
-  buttonLabel: 'Comprar agora',
+  buttonLabel: 'Buy now',
   buttonLink: '/rdr2'
 }
 
@@ -24,9 +24,7 @@ describe('<Highlight />', () => {
       screen.getByRole('heading', { name: /heading 2/i })
     ).toBeInTheDocument()
 
-    expect(
-      screen.getByRole('link', { name: /comprar agora/i })
-    ).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /buy now/i })).toBeInTheDocument()
   })
 
   it('should render background image', () => {

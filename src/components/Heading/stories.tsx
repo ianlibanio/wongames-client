@@ -9,7 +9,7 @@ export default {
 export const Default: Story<HeadingProps> = (args) => <Heading {...args} />
 
 Default.args = {
-  children: 'Mais populares',
+  children: 'News',
   color: 'black',
   lineLeft: false,
   lineBottom: false,

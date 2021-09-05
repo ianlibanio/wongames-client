@@ -190,7 +190,7 @@ exports[`<GameCard /> should render correctly 1`] = `
       >
         <svg
           aria-hidden="true"
-          aria-label="Adicionar à lista de desejos"
+          aria-label="Add to wish list"
           class="c7"
           fill="currentColor"
           focusable="false"

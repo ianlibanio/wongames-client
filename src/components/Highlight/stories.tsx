@@ -5,10 +5,10 @@ export default {
   title: 'Highlight',
   component: Highlight,
   args: {
-    title: 'Read Dead está de volta!',
-    subtitle: 'Venha conhecer as novas aventuras de John Marston',
+    title: 'Read Dead is back!',
+    subtitle: "Come see John's new adventures",
     backgroundImage: '/img/red-dead-img.png',
-    buttonLabel: 'Comprar agora',
+    buttonLabel: 'Buy now',
     buttonLink: '/rdr2',
     alignment: 'right'
   }

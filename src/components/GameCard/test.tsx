@@ -27,9 +27,7 @@ describe('<GameCard />', () => {
       props.img
     )
 
-    expect(
-      screen.getByLabelText(/Adicionar à lista de desejos/i)
-    ).toBeInTheDocument()
+    expect(screen.getByLabelText(/Add to wish list/i)).toBeInTheDocument()
 
     expect(container).toMatchSnapshot()
   })
@@ -63,9 +61,7 @@ describe('<GameCard />', () => {
   it('should render a filled favorite icon when favorite is true', () => {
     renderWithTheme(<GameCard {...props} favorite />)
 
-    expect(
-      screen.getByLabelText(/Remover da lista de desejos/i)
-    ).toBeInTheDocument()
+    expect(screen.getByLabelText(/Remove from wish list/i)).toBeInTheDocument()
   })
 
   it('should call onFav method when favorite is clicked', () => {

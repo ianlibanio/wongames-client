@@ -167,7 +167,7 @@ exports[`<Footer /> should render 4 columns topics 1`] = `
         class="c4 c5"
         color="black"
       >
-        Contato
+        Contact us
       </h2>
       <a
         href="mailto:suporte@wongames.gg"
@@ -187,7 +187,7 @@ exports[`<Footer /> should render 4 columns topics 1`] = `
         class="c4 c5"
         color="black"
       >
-        Nos acompanhe
+        Follow us
       </h2>
       <nav
         aria-labelledby="social media"
@@ -237,17 +237,17 @@ exports[`<Footer /> should render 4 columns topics 1`] = `
         <a
           href="/games"
         >
-          Loja
+          Store
         </a>
         <a
           href="/explore"
         >
-          Explorar
+          Explore
         </a>
         <a
           href="/search"
         >
-          Buscar
+          Search
         </a>
         <a
           href="/faq"
@@ -264,7 +264,7 @@ exports[`<Footer /> should render 4 columns topics 1`] = `
         class="c4 c5"
         color="black"
       >
-        Localização
+        Location
       </h2>
       <span>
         Rua Lorem ipsum dolor
@@ -280,7 +280,7 @@ exports[`<Footer /> should render 4 columns topics 1`] = `
   <div
     class="c6"
   >
-    Won Games 2021 © Todos os Direitos Reservados.
+    Won Games 2021 © All rights reserved
   </div>
 </footer>
 `
